@@ -13,5 +13,7 @@ class PalindromeTest {
         Assertions.assertTrue(palindrome.isPalindrome("D"));
         Assertions.assertTrue(palindrome.isPalindrome("Naman"));
         Assertions.assertTrue(palindrome.isPalindrome("A man, a plan, a canal: Panama"));
+        Assertions.assertFalse(palindrome.isPalindrome("A dog is an animal!"));
+        Assertions.assertFalse(palindrome.isPalindrome(" Cows are everywhere! Right now!"));
     }
 }
