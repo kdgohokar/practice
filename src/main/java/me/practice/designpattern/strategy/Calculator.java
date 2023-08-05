@@ -1,5 +1,6 @@
 package me.practice.designpattern.strategy;
 
+import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
