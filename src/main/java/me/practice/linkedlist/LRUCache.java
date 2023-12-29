@@ -19,10 +19,10 @@ public class LRUCache {
         }
     }
 
-    int capacity;
-    Map<Integer, Node> cache;
-    Node left;
-    Node right;
+    private final int capacity;
+    private final Map<Integer, Node> cache;
+    private final Node left;
+    private final Node right;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
